@@ -22,6 +22,6 @@ elif opcion == 4:
     moneda = "CHF"
 else:
     print("Opción no válida.")
-    raise SystemExit
+    exit()
 
 print(f"{cantidad:.2f} EUR equivalen a {cambio:.2f} {moneda}.")
